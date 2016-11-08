@@ -1,7 +1,12 @@
 # linux-commands
+> one-liners collected through the times
+
+These are short little chained commands that I find myself using time and time 
+again. Some use to be Bash aliases, but to be honest I always forgot what I 
+named them; thus this README was born instead.
 
 
-## Files & directories 
+## Files & Directories 
 
 ### Find biggest files in a dir
 ```console
@@ -13,19 +18,17 @@ $ find . -type f -exec ls -s {} \; | sort -n -r | head -5
 $ ls -1 | wc -l
 ```
 
-## Text files
-
-### Character count
+### Get a text file's character count
 ```console
 $ wc -c "filename.txt"
 ```
 
-### Word Count
+### Get a text file's word count
 ```console
 $ wc -w "filename.txt"
 ```
 
-### Frequently used words
+### Frequently used words in a text file
 > Replace the "10" in `head -n 10` to specify the *number* of top words to show
 ```console
 $ <filename.txt tr -cs "[:alnum:]" "\n" | tr "[:lower:]" "[:upper:]" | awk '{h[$1]++}END{for (i in h){print h[i]" "i}}'|sort -nr | cat -n | head -n 10
@@ -123,7 +126,6 @@ curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//'
 ```console
 $ systemctl restart netctl-auto@wlp1s0.service
 ```
-
 
 ### Fast network partition cloning
 By zeroing the slack space of the partition beforehand, we can compress the 
