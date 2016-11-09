@@ -29,10 +29,14 @@ $ wc -w "filename.txt"
 ```
 
 ### Frequently used words in a text file
-> Replace the "10" in `head -n 10` to specify the *number* of top words to show
+
 ```console
 $ <filename.txt tr -cs "[:alnum:]" "\n" | tr "[:lower:]" "[:upper:]" | awk '{h[$1]++}END{for (i in h){print h[i]" "i}}'|sort -nr | cat -n | head -n 10
 ```
+
+*Replace:*
+
+- `head -n 10` specifies the number of top words to show
 
 ### Get a random line from a file
 ```console
@@ -42,15 +46,15 @@ $ shuf -n 1 "filename.txt"
 ## Security
 
 ### Generate a random password
+Without special characters:
 ```console
 $ echo $(</dev/urandom tr -cd '[:alnum:]' | head -c ${1:-8})
 ```
-> without special characters
-
+ 
+With special characters:
 ```console
 $ echo $(</dev/urandom tr -cd '[:graph:]' | head -c ${1:-8})
 ```
-> with special characters
 
 *Replace:*  
 
@@ -87,7 +91,8 @@ $ echo -e "\033c"
 $ echo "Or Fher Gb Qevax Lbhe Binygvar" | tr A-Za-z N-ZA-Mn-za-m
 ```
 
-*Replace:*
+*Replace:*  
+
 - `Or Fher Gb Qevax Lbhe Binygvar` - the ciphertext to decode 
 
 ### Act like you're very busy
