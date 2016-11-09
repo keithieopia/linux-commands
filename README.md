@@ -225,6 +225,8 @@ Most of these commands are so well known, their original authors are unknown. If
 you are the author or happen to know them please contact me or submit a pull 
 request so I can give credit.
 
+* `midi2ogg` - Found on the [ArchWiki](https://wiki.archlinux.org/index.php/FluidSynth#How_to_convert_MIDI_to_OGG)  
+  License: [GNU FDL](https://www.gnu.org/copyleft/fdl.html)
 
 ## Feedback
 I would love your feedback! If you found any of these config files useful, 
