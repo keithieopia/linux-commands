@@ -43,30 +43,7 @@ $ <filename.txt tr -cs "[:alnum:]" "\n" | tr "[:lower:]" "[:upper:]" | awk '{h[$
 $ shuf -n 1 "filename.txt"
 ```
 
-## Security
-
-### Generate a random password
-Without special characters:
-```console
-$ echo $(</dev/urandom tr -cd '[:alnum:]' | head -c ${1:-8})
-```
- 
-With special characters:
-```console
-$ echo $(</dev/urandom tr -cd '[:graph:]' | head -c ${1:-8})
-```
-
-*Replace:*  
-
-- `head -c ${1:-8}` - Change the `8` to however many characters long you want the 
-password to be
-
-*Tip:*
-
-- `echo $()` is simply a wrapper for the real command, so that it gets outputted 
-on a new line and doesn't mess up the prompt
-
-### Fix console gibberish 
+## Fix console gibberish 
 There are two people in this world: 
 
 1. Those that have accidentally `cat`'ed a binary and screwed up their $PS1
@@ -216,7 +193,7 @@ dd if=~/cloned-partition.bin bs=1M | gzip -1 - | pv | ssh root@10.0.0.1 "gunzip 
 in the previous examples
 
 *Tip:*  
-`pv` will show the current progress, which is useful given partitions are 
+- `pv` will show the current progress, which is useful given partitions are 
 usually large. Ultimately can be excluded from the above command if not wanted
 
 
