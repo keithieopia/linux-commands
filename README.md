@@ -11,9 +11,9 @@ material available on these subjects.
 
 ## Table of Contents
 
-* [Firefox](https://github.com/keithieopia/bin/blob/master/firefox.md): secure,
+* [Firefox](https://github.com/keithieopia/linux-guides/blob/master/firefox.md): secure,
 de-bloat, add-ons, ad-block filters, and about:config tweaks
-* [Full Disk Encryption](https://github.com/keithieopia/bin/blob/master/full-disk-encryption.md):
+* [Full Disk Encryption](https://github.com/keithieopia/linux-guides/blob/master/full-disk-encryption.md):
 secure, yet sane settings for those confused about FDE on Linux
 
 
