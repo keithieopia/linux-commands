@@ -1,7 +1,7 @@
 # linux-guides: full disk encryption
 > secure, yet sane: Linux FDE for mere mortals
 
-When you want to securely setup full disk encryption, yet still have 
+When you want to securely setup full disk encryption, yet still have
 relatively snappy system performance, without spending a ridiculous time
 digesting all the available material on the subject.
 
@@ -133,23 +133,6 @@ case.
 
 **To be clear**: Use AES over Serpent, unless you don't have AES-NI
 
+---
 
-## Feedback
-I would love your feedback! If you found this guide useful, please drop me
-[an email](mailto:timothykeith@gmail.com). For the privacy conscious, feel free
-to encrypt any messages using my [PGP key](http://pgp.mit.edu/pks/lookup?op=vindex&fingerprint=on&search=0xF4F4A135C022EE12):
-
-> 4135 C593 1D89 368E 7F32 C8ED F4F4 A135 C022 EE12
-
-To import it into your keyring:
-```console
-$  gpg --keyserver pgp.mit.edu --recv-key 4135C5931D89368E7F32C8EDF4F4A135C022EE12
-```
-
-Submit bug reports via GitHub's [Issue Tracker](https://github.com/keithieopia/linux-encrypt/issues)
-
-
-## Author
-Copyright &copy; 2017 Timothy Keith
-
-This guide is licensed under the [GNU Free Document License](https://github.com/keithieopia/linux-encrypt/blob/master/LICENSE).
+*This is part of the [linux-guides](https://github.com/keithieopia/linux-guides) series. For more information, such see the [README](https://github.com/keithieopia/linux-guides/blob/master/README.md).*
