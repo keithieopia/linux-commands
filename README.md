@@ -15,6 +15,8 @@ material available on these subjects.
 de-bloat, add-ons, ad-block filters, and about:config tweaks
 * [Full Disk Encryption](https://github.com/keithieopia/linux-guides/blob/master/full-disk-encryption.md):
 secure, yet sane settings for those confused about FDE on Linux
+* [One Liners](https://github.com/keithieopia/linux-guides/blob/master/one-liners.md):
+useful chained commands to solve a variety of problems
 
 
 ## A Note on "GNU/Linux"
