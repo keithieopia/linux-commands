@@ -1,6 +1,6 @@
 # linux-guides
 
-<img align="right" alt="Linux's Mascot Tux" src="https://raw.githubusercontent.com/keithieopia/linux-guides/master/assets/tux_circle.png">
+<img align="right" alt="Linux's Mascot Tux" src="https://raw.githubusercontent.com/keithieopia/linux-guides/master/assets/tux.png">
 
 > tweak, optimize, and secure linux
 

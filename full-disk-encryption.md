@@ -1,6 +1,6 @@
 # linux-guides: full disk encryption
 
-<img align="right" alt="Key Icon" src="https://raw.githubusercontent.com/keithieopia/linux-guides/master/assets/key_circle.png">
+<img align="right" alt="Key Icon" src="https://raw.githubusercontent.com/keithieopia/linux-guides/master/assets/key.png">
 
 > secure, yet sane: Linux FDE for mere mortals
 

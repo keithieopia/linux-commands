@@ -1,6 +1,6 @@
 # linux-guides: firefox
 
-<img align="right" alt="Firefox Logo" src="https://raw.githubusercontent.com/keithieopia/linux-guides/master/assets/firefox_circle.png">
+<img align="right" alt="Firefox Logo" src="https://raw.githubusercontent.com/keithieopia/linux-guides/master/assets/firefox.png">
 
 > de-bloat and secure firefox, plus add-ons that don't suck
 
