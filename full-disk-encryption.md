@@ -1,4 +1,7 @@
 # linux-guides: full disk encryption
+
+<img align="right" alt="Key Icon" src="https://raw.githubusercontent.com/keithieopia/linux-guides/master/assets/key_circle.png">
+
 > secure, yet sane: Linux FDE for mere mortals
 
 When you want to securely setup full disk encryption, yet still have
