@@ -64,6 +64,7 @@ $ echo -e "\033c"
 - The above are not needed if you simply need to `clear` the screen
 - CTRL + L also clears the screen
 
+
 ## Fun
 
 ### Decode ROT13
@@ -79,6 +80,13 @@ $ echo "Or Fher Gb Qevax Lbhe Binygvar" | tr A-Za-z N-ZA-Mn-za-m
 ```console
 $ </dev/urandom hexdump -C | grep --color=auto "ca fe"
 ```
+
+### QOTD Server [RFC 865](https://tools.ietf.org/html/rfc865)
+
+```console
+ while :; do nc -l -p 17 -e $(which fortune); done
+```
+
 
 ## Media conversion
 
@@ -199,13 +207,21 @@ in the previous examples
 - `pv` will show the current progress, which is useful given partitions are
 usually large. Ultimately can be excluded from the above command if not wanted
 
+### One-shot Web Server
+
+```console
+{ echo -ne "HTTP/1.0 200 OK\r\nContent-Length: $(wc -c < YOURFILE)\r\n\r\n"; cat YOURFILE; } | nc -l -p 80
+```
+
 
 ## Credits
 Most of these commands are so well known, their original authors are unknown. If
 you are the author or happen to know them please contact me or submit a pull
 request so I can give credit.
 
-* `midi2ogg` - Found on the [ArchWiki](https://wiki.archlinux.org/index.php/FluidSynth#How_to_convert_MIDI_to_OGG)  
+* `MIDI to Ogg` - Found on the [ArchWiki](https://wiki.archlinux.org/index.php/FluidSynth#How_to_convert_MIDI_to_OGG)  
   License: [GNU FDL](https://www.gnu.org/copyleft/fdl.html)
-
+* `One-shot Web Server` - Found at [Slothkrew](https://github.com/Slothkrew)'s [netcat](https://github.com/Slothkrew/infosec-cheatsheets/blob/master/netcat) [infosec-cheatsheet](https://github.com/Slothkrew/infosec-cheatsheets)  
+  License: [MIT](https://github.com/Slothkrew/infosec-cheatsheets/blob/master/LICENSE)
+  
   *This is part of the [linux-guides](https://github.com/keithieopia/linux-guides) series. For more information, such see the [README](https://github.com/keithieopia/linux-guides/blob/master/README.md).*
