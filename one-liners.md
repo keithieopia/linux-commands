@@ -4,9 +4,7 @@
 
 > one-liners collected through the times
 
-These are short little chained commands that I find myself using time and time
-again. Some use to be Bash aliases, but to be honest I always forgot what I
-named them; thus this README was born instead.
+These are short little chained commands that I find myself using time and time again. Some use to be Bash aliases, but to be honest I always forgot what I named them; thus this README was born instead.
 
 
 ## Files & Directories
@@ -45,6 +43,15 @@ $ <filename.txt tr -cs "[:alnum:]" "\n" | tr "[:lower:]" "[:upper:]" | awk '{h[$
 ```console
 $ shuf -n 1 "filename.txt"
 ```
+
+### Backup your home directory
+```console
+$ rsync -av --delete /home/$USER /mnt/backup
+```
+
+*Replace:*
+
+- `/mnt/backup` is the location to store the backup
 
 ## Fix console gibberish
 There are two people in this world:
@@ -224,9 +231,7 @@ usually large. Ultimately can be excluded from the above command if not wanted
 
 
 ## Credits
-Most of these commands are so well known, their original authors are unknown. If
-you are the author or happen to know them please contact me or submit a pull
-request so I can give credit.
+Most of these commands are so well known, their original authors are unknown. If you are the author or happen to know them please contact me or submit a pull request so I can give credit.
 
 * `MIDI to Ogg` - Found on the [ArchWiki](https://wiki.archlinux.org/index.php/FluidSynth#How_to_convert_MIDI_to_OGG)  
   License: [GNU FDL](https://www.gnu.org/copyleft/fdl.html)
