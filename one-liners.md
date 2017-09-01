@@ -1,6 +1,6 @@
 # linux-guides: one liners
 
-<img align="right" alt="Console Icon" src="https://raw.githubusercontent.com/keithieopia/linux-guides/master/assets/console.png">
+<img align="right" alt="Console Icon" src="https://raw.githubusercontent.com/keithieopia/linux-guides/master/.readme-assets/console.png">
 
 > one-liners collected through the times
 
@@ -88,7 +88,16 @@ $ </dev/urandom hexdump -C | grep --color=auto "ca fe"
 ```
 
 
-## Media conversion
+## Media
+
+### Grab a Screenshot from a Video
+
+```console
+mpv --no-audio --vo=image --start=00:01:30 --frames=1 /path/to/video.mkv
+```
+*Replace:*
+- `00:01:30` - Screen at this current time slot (1 minute, 30 seconds into the video)
+- `/path/to/video.mkv` - The video file
 
 ### Repair corrupt videos / Fix "Build index then play" in VLC
 This is often much faster and more accurate than VLC's built-in repair tool
@@ -224,4 +233,4 @@ request so I can give credit.
 * `One-shot Web Server` - Found at [Slothkrew](https://github.com/Slothkrew)'s [netcat](https://github.com/Slothkrew/infosec-cheatsheets/blob/master/netcat) [infosec-cheatsheet](https://github.com/Slothkrew/infosec-cheatsheets)  
   License: [MIT](https://github.com/Slothkrew/infosec-cheatsheets/blob/master/LICENSE)
   
-  *This is part of the [linux-guides](https://github.com/keithieopia/linux-guides) series. For more information, such see the [README](https://github.com/keithieopia/linux-guides/blob/master/README.md).*
+  *This is part of the [linux-guides](https://github.com/keithieopia/linux-guides) series. For more information, see the main [README](https://github.com/keithieopia/linux-guides/blob/master/README.md).*

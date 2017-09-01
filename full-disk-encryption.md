@@ -1,6 +1,6 @@
 # linux-guides: full disk encryption
 
-<img align="right" alt="Key Icon" src="https://raw.githubusercontent.com/keithieopia/linux-guides/master/assets/key.png">
+<img align="right" alt="Key Icon" src="https://raw.githubusercontent.com/keithieopia/linux-guides/master/.readme-assets/key.png">
 
 > secure, yet sane: Linux FDE for mere mortals
 
@@ -138,4 +138,4 @@ case.
 
 ---
 
-*This is part of the [linux-guides](https://github.com/keithieopia/linux-guides) series. For more information, such see the [README](https://github.com/keithieopia/linux-guides/blob/master/README.md).*
+*This is part of the [linux-guides](https://github.com/keithieopia/linux-guides) series. For more information, see the main [README](https://github.com/keithieopia/linux-guides/blob/master/README.md).*

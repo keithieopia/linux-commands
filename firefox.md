@@ -1,6 +1,6 @@
 # linux-guides: firefox
 
-<img align="right" alt="Firefox Logo" src="https://raw.githubusercontent.com/keithieopia/linux-guides/master/assets/firefox.png">
+<img align="right" alt="Firefox Logo" src="https://raw.githubusercontent.com/keithieopia/linux-guides/master/.readme-assets/firefox.png">
 
 > de-bloat and secure firefox, plus add-ons that don't suck
 
@@ -242,4 +242,4 @@ Improve performance, security, and privacy with these [about:config](http://kb.m
 
 ---
 
-*This is part of the [linux-guides](https://github.com/keithieopia/linux-guides) series. For more information, such see the [README](https://github.com/keithieopia/linux-guides/blob/master/README.md).*
+*This is part of the [linux-guides](https://github.com/keithieopia/linux-guides) series. For more information, see the main [README](https://github.com/keithieopia/linux-guides/blob/master/README.md).*
