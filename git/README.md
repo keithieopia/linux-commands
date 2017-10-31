@@ -1,8 +1,10 @@
-# linux-guides: git
+# Index
 
-## Completely purge data from a repo
+- [Purge a File](#purge-a-file)
+- [Purge a Directory](#purge-a-directory)
+- [Merge Two Git Repos](#merge-two-git-repos)
 
-### Single file
+### Purge a file
 
 ```console
 git filter-branch --force --index-filter \
@@ -10,7 +12,7 @@ git filter-branch --force --index-filter \
 --prune-empty --tag-name-filter cat -- --all
 ```
 
-### Entire Directory
+### Purge a directory
 ```console
 git filter-branch --force --index-filter \
 'git rm -r --cached --ignore-unmatch PATH-TO-FILE' \
@@ -19,7 +21,7 @@ git filter-branch --force --index-filter \
 
 *Credits: [GitHub Help](https://help.github.com/articles/removing-sensitive-data-from-a-repository/)*
 
-## Merge two different git repos
+### Merge two git repos
 
 To merge `project-a` into `project-b`:
 
