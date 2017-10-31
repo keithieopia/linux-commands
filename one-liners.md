@@ -6,6 +6,12 @@
 
 These are short little chained commands that I find myself using time and time again. Some use to be Bash aliases, but to be honest I always forgot what I named them; thus this README was born instead.
 
+## System Information
+
+### Make, Model, Serial Number, etc
+```console
+$ sudo dmidecode | grep -A9 '^System Information'
+```
 
 ## Files & Directories
 
