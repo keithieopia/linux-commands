@@ -1,7 +1,5 @@
 # linux-guides
 
-<img align="right" alt="Linux's Mascot Tux" src="https://raw.githubusercontent.com/keithieopia/linux-guides/master/.readme-assets/tux.png">
-
 > tweak, optimize, and secure linux
 
 A collection of guides for Linux on topics that I found myself constantly
